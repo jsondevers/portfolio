@@ -58,6 +58,7 @@ const Experience = () => {
 
   return (
     <div name="projects" className="w-full h-fit text-gray-300 bg-[#28282B]">
+      <div className="w-full h-[60px]" />
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">

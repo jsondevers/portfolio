@@ -17,8 +17,12 @@ const About = () => {
           </div>
           <div>
             <p>
-              I have a passion for working with large distributed systems,
-              increasing the speed of programs.
+              I am a first generation college student born and raised in
+              Rockville, Maryland. I have a passion for working with large
+              distributed systems, lowering latency through the use of
+              algorithms and data structures. Outside of work, I love cooking,
+              going to the gym, and spending time with my family's German
+              Shepherd, Etta.
             </p>
           </div>
         </div>
