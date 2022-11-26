@@ -107,7 +107,10 @@ export default class Experience extends React.Component {
                   <p className="text-sm">May 2023 - August 2023</p>
                   <p className="text-sm">Redmond, WA</p>
                 </button>
-                <button onClick={this.handleClick1}>description</button>
+                <button onClick={this.handleClick1}>
+                  This upcoming summer I'm going to be working within the Azure
+                  Cloud organization.{" "}
+                </button>
               </ReactCardFlip>
             </div>
 
