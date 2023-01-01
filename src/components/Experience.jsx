@@ -8,6 +8,7 @@ import ARLIS from "../assets/teams/arlis.png";
 import QUEST from "../assets/teams/quest.png";
 import RA from "../assets/teams/reslife.png";
 import SIGPHI from "../assets/teams/sigphi.png";
+import ForAllSecure from "../assets/teams/forallsecure.png";
 
 export default class Experience extends React.Component {
   constructor() {
@@ -22,6 +23,8 @@ export default class Experience extends React.Component {
       isFlipped7: false,
       isFlipped8: false,
       isFlipped9: false,
+      isFlipped10: false,
+      isFlipped11: false,
     };
     this.handleClick1 = this.handleClick1.bind(this);
     this.handleClick2 = this.handleClick2.bind(this);
@@ -32,6 +35,8 @@ export default class Experience extends React.Component {
     this.handleClick7 = this.handleClick7.bind(this);
     this.handleClick8 = this.handleClick8.bind(this);
     this.handleClick9 = this.handleClick9.bind(this);
+    this.handleClick10 = this.handleClick10.bind(this);
+    this.handleClick11 = this.handleClick11.bind(this);
   }
   handleClick1(e) {
     e.preventDefault();
@@ -68,6 +73,14 @@ export default class Experience extends React.Component {
   handleClick9(e) {
     e.preventDefault();
     this.setState((prevState) => ({ isFlipped9: !prevState.isFlipped9 }));
+  }
+  handleClick10(e) {
+    e.preventDefault();
+    this.setState((prevState) => ({ isFlipped10: !prevState.isFlipped10 }));
+  }
+  handleClick11(e) {
+    e.preventDefault();
+    this.setState((prevState) => ({ isFlipped11: !prevState.isFlipped11 }));
   }
   render() {
     return (
@@ -188,7 +201,7 @@ export default class Experience extends React.Component {
           <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Academic
           </p>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <ReactCardFlip
                 isFlipped={this.state.isFlipped4}
@@ -196,7 +209,7 @@ export default class Experience extends React.Component {
               >
                 <button onClick={this.handleClick4}>
                   <img className="w-30 mx-auto" src={UMDCS} alt="HTML icon" />
-                  <p className="text-base">UMD Computer Science Department</p>
+                  <p className="text-base">UMD CS Department</p>
                   <p className="text-base">Coding Instructor</p>
                   <p className="text-sm">August 2022 - Current</p>
                   <p className="text-sm">College Park, MD</p>
@@ -251,6 +264,42 @@ export default class Experience extends React.Component {
 
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <ReactCardFlip
+                isFlipped={this.state.isFlipped11}
+                flipDirection="vertical"
+              >
+                <button onClick={this.handleClick11}>
+                  <img
+                    className="w-30 mx-auto"
+                    src={ForAllSecure}
+                    alt="HTML icon"
+                  />
+                  <p className="text-base">ForAllSecure</p>
+                  <p className="text-base">Hackathon TA</p>
+                  <p className="text-sm">December 2022</p>
+                  <p className="text-sm">College Park, MD</p>
+                </button>
+                <button onClick={this.handleClick11}>
+                  <p className="text-sm text-center">
+                    <li>
+                      Aided in coordinating UMD Open Source Software Hackathon.
+                      <li>
+                        Assisted students using ForAllSecure's Mayhem tool to
+                        search open-source projects for defects (even
+                        zero-days).
+                      </li>
+                      <li>
+                        Applied DevSecOps fuzzing on open-source applications,
+                        built fuzz targets, instructing them with libFuzzer and
+                        automating with GitHub Actions testing
+                      </li>
+                    </li>
+                  </p>
+                </button>
+              </ReactCardFlip>
+            </div>
+
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <ReactCardFlip
                 isFlipped={this.state.isFlipped6}
                 flipDirection="vertical"
               >
@@ -288,7 +337,34 @@ export default class Experience extends React.Component {
           <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
             Leadership
           </p>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
+
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <ReactCardFlip
+                isFlipped={this.state.isFlipped10}
+                flipDirection="vertical"
+              >
+                <button onClick={this.handleClick10}>
+                  <img className="w-30 mx-auto" src={UMDCS} alt="HTML icon" />
+                  <p className="text-base">UMD CS Department</p>
+                  <p className="text-base">Ambassador</p>
+                  <p className="text-sm">January 2023 - Current</p>
+                  <p className="text-sm">College Park, MD</p>
+                </button>
+                <button onClick={this.handleClick10}>
+                  <p className="text-sm text-center">
+                    <li>
+                      Spoke at panels with 100+ students to answer questions
+                      about UMD CS program.
+                      <li>
+                        Met with prospective students and families 1-on-1 to
+                        answer questions about the CS program.
+                      </li>
+                    </li>
+                  </p>
+                </button>
+              </ReactCardFlip>
+            </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <ReactCardFlip
                 isFlipped={this.state.isFlipped7}
@@ -328,7 +404,7 @@ export default class Experience extends React.Component {
                 <button onClick={this.handleClick8}>
                   <img className="w-30 mx-auto" src={QUEST} alt="HTML icon" />
                   <p className="text-base">QUEST Honors Program</p>
-                  <p className="text-base">Director of Recruiting/Mentor</p>
+                  <p className="text-base">Teamlead Recruiting/Mentor</p>
                   <p className="text-sm">August 2022 - Current</p>
                   <p className="text-sm">College Park, MD</p>
                 </button>

@@ -1,7 +1,6 @@
 import React from "react";
 import Bot from "../assets/projects/bot.png";
 
-import Face from "../assets/projects/face.png";
 import SCORE from "../assets/projects/score.png";
 import Resume from "../assets/projects/resume.png";
 import Maze from "../assets/projects/maze.png";
@@ -25,6 +24,7 @@ import Tetris from "../assets/projects/tetris.png";
 import WateringStation from "../assets/projects/watering-station.png";
 import GymBot from "../assets/projects/gym-bot.png";
 import FoodTracker from "../assets/projects/food-tracker.png";
+import Heart from "../assets/projects/heart-attack.png";
 
 import Python from "../assets/projects/used/python.png";
 import LaTex from "../assets/projects/used/latex.png";
@@ -74,8 +74,47 @@ const Experience = () => {
         {/* container for projects */}
         <div className="w-fit grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <a href="https://github.com/jsondevers/ra_bot">
-              <button>
+            <button>
+              <a href="https://jsondevers.github.io/heart-attacks/">
+                <img class="w-full" src={Heart} alt="face"></img>
+                <div class="font-bold text-lg  text-gray-300">
+                  Heart Attack Analysis
+                </div>
+                <h1>December 2022</h1>
+                <p className="text-sm text-center">
+                  <li>
+                    My father passed away when I was 9 years old from a
+                    heart-attack. With the knowledge of data-science, I
+                    completed a project that analyzed heart-disease based on
+                    real statistics.
+                  </li>
+                  <li>
+                    Created linear regressions, trained and tested models, then
+                    creating classifiers (Decision Trees, KNN, Random Forest)
+                    that had 85%+ accuracy, and more.
+                  </li>
+                </p>
+                <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <img
+                    src={Python}
+                    alt="python"
+                    style={{ width: "40px" }}
+                  ></img>
+                </span>
+                <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <img
+                    src={Jupyter}
+                    alt="jupyter"
+                    style={{ width: "40px" }}
+                  ></img>
+                </span>
+              </a>
+            </button>
+          </div>
+
+          <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <button>
+              <a href="https://github.com/jsondevers/ra_bot">
                 <img class="w-full" src={Bot} alt="Bot"></img>
 
                 <div class="font-bold text-lg  text-gray-300">RA Bot</div>
@@ -118,41 +157,8 @@ const Experience = () => {
                 <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   <img src={Flask} alt="flask" style={{ width: "70px" }}></img>
                 </span>
-              </button>
-            </a>
-          </div>
-
-          <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img class="w-full" src={Face} alt="face"></img>
-            <div class="font-bold text-lg  text-gray-300">
-              Dev[ers]Ops Facial Recognition
-            </div>
-            <h1>October 2022</h1>
-            <p className="text-sm text-center">
-              <li>
-                Upgraded family security camera using opensource SDK kit from
-                Axis Communications to detect family members.
-              </li>
-              <li>
-                Tested classifier to successfully recognize 3/4 family members.
-              </li>
-            </p>
-            <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              <img src={CPP} alt="cpp" style={{ width: "40px" }}></img>
-            </span>
-            <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              <img src={OpenCV} alt="opencv" style={{ width: "40px" }}></img>
-            </span>
-            <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              <img
-                src={TensorFlow}
-                alt="tensorflow"
-                style={{ width: "40px" }}
-              ></img>
-            </span>
-            <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              <img src={Axis} alt="flask" style={{ width: "70px" }}></img>
-            </span>
+              </a>
+            </button>
           </div>
 
           <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -188,7 +194,7 @@ const Experience = () => {
 
           <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <button>
-              <a href="https://github.com/jsondevers/ra_bot">
+              <a href="https://github.com/jsondevers/ResumeBuilder-">
                 <img class="w-full" src={Resume} alt="resume"></img>
               </a>
               <div class="font-bold text-lg  text-gray-300">Resume Builder</div>
@@ -211,7 +217,7 @@ const Experience = () => {
 
           <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <button>
-              <a href="https://github.com/jsondevers/ra_bot">
+              <a href="https://github.com/jsondevers/dsa">
                 <img class="w-full" src={DSA} alt="dsa"></img>
               </a>
               <div class="font-bold text-lg  text-gray-300">
@@ -220,13 +226,10 @@ const Experience = () => {
               <p className="text-lg">∞</p>
               <p className="text-sm text-center">
                 <li>
-                  Upgraded family security camera using opensource SDK kit from
-                  Axis Communications to detect family members.
+                  Implemented popular data structures and algorithms in C++ and
+                  Python.
                 </li>
-                <li>
-                  Tested classifier to successfully recognize 3/4 family
-                  members.
-                </li>
+                <li>Practiced LeetCode problems, CodeForces, and more!</li>
               </p>
               <span class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 <img src={CPP} alt="cpp" style={{ width: "40px" }}></img>
@@ -279,7 +282,7 @@ const Experience = () => {
           </div>
 
           <div class="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img class="w-full" src={GymBot} alt="dsa"></img>
+            <img class="w-full" src={GymBot} alt="gym-bot"></img>
 
             <div class="font-bold text-lg  text-gray-300">
               Gym Reservation Bot
