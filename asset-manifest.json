@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a3a38c47.css",
-    "main.js": "/portfolio/static/js/main.51ecf1e3.js",
+    "main.css": "/portfolio/static/css/main.d2e38811.css",
+    "main.js": "/portfolio/static/js/main.1485bf73.js",
     "static/media/microsoft.gif": "/portfolio/static/media/microsoft.4b02fc56dcc3118d14bc.gif",
     "static/media/logo1.png": "/portfolio/static/media/logo1.ce1b83de3b155ed93f4f.png",
     "static/media/api.webp": "/portfolio/static/media/api.a3a5aa52c2b17ddb103c.webp",
@@ -27,6 +27,7 @@
     "static/media/umdcs.png": "/portfolio/static/media/umdcs.426248ae12772dd7c433.png",
     "static/media/watering-station.png": "/portfolio/static/media/watering-station.2f848087d507b9f40f97.png",
     "static/media/reslife.png": "/portfolio/static/media/reslife.9c2a6cf2d6afcdb1cabb.png",
+    "static/media/flask.png": "/portfolio/static/media/flask.1f0d2157cac11983c06d.png",
     "static/media/latex.png": "/portfolio/static/media/latex.da334e62bdd80c6f8a44.png",
     "static/media/ghidra.png": "/portfolio/static/media/ghidra.e05bc49398ff62587f3c.png",
     "static/media/ros.png": "/portfolio/static/media/ros.bc4ef765035b87602e85.png",
@@ -46,21 +47,24 @@
     "static/media/numpy.png": "/portfolio/static/media/numpy.1069821345c480b04639.png",
     "static/media/apple.png": "/portfolio/static/media/apple.c21381289c55aff990b0.png",
     "static/media/vision.png": "/portfolio/static/media/vision.665fc9ed534dfc0dcd1e.png",
-    "static/media/face.png": "/portfolio/static/media/face.03af5b86754590f0840d.png",
     "static/media/junit.png": "/portfolio/static/media/junit.92bfa3ff032f9f59ef0c.png",
     "static/media/webpage.png": "/portfolio/static/media/webpage.d6fe4a75b0b67788ba94.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/design.png": "/portfolio/static/media/design.aa7827ebbfce6ad19126.png",
+    "static/media/heart-attack.png": "/portfolio/static/media/heart-attack.0dc4405b314d531faf13.png",
     "static/media/suit-repair.png": "/portfolio/static/media/suit-repair.34aa40fbc83d150f8663.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/java.png": "/portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/django.png": "/portfolio/static/media/django.1561b91d7b75f3ca2814.png",
     "static/media/gym-bot.png": "/portfolio/static/media/gym-bot.cb6fdc704e5cb2c65039.png",
     "static/media/score.png": "/portfolio/static/media/score.942d27262569d0740c6e.png",
     "static/media/ds.png": "/portfolio/static/media/ds.49d1b061d9f62712a211.png",
     "static/media/resume.png": "/portfolio/static/media/resume.835f09038d57bb07ffde.png",
+    "static/media/csharp.png": "/portfolio/static/media/csharp.fc430729bfa8902c06fd.png",
     "static/media/bot.png": "/portfolio/static/media/bot.6642410c7c5efd294b35.png",
+    "static/media/neo4j.png": "/portfolio/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/quest.png": "/portfolio/static/media/quest.a223ac1f3f89c0fff67e.png",
     "static/media/interpret.png": "/portfolio/static/media/interpret.c78658978a34fecb2cba.png",
@@ -69,11 +73,11 @@
     "static/media/xunit.png": "/portfolio/static/media/xunit.2b091191432d7d24330b.png",
     "static/media/docker.webp": "/portfolio/static/media/docker.97f28ff91e8bcb695d21.webp",
     "index.html": "/portfolio/index.html",
-    "main.a3a38c47.css.map": "/portfolio/static/css/main.a3a38c47.css.map",
-    "main.51ecf1e3.js.map": "/portfolio/static/js/main.51ecf1e3.js.map"
+    "main.d2e38811.css.map": "/portfolio/static/css/main.d2e38811.css.map",
+    "main.1485bf73.js.map": "/portfolio/static/js/main.1485bf73.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a38c47.css",
-    "static/js/main.51ecf1e3.js"
+    "static/css/main.d2e38811.css",
+    "static/js/main.1485bf73.js"
   ]
 }
