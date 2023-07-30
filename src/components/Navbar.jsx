@@ -47,11 +47,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="cursor-pointer">
-          <Link to="resume" smooth={true} duration={500}>
-            Resume
-          </Link>
-        </li>
+
       </ul>
 
       {/* Hamburger */}
